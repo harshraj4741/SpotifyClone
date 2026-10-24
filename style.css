@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Google Sans flex", sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.left {
+    width: 25vw;
+    padding: 10px;
+}
+
+.right {
+    width: 75vw;
+}
+
+.home{
+
+}
+
+.home ul li{
+    width: 14px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+}
+
+.heading{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+    padding: 23px 14px;
+    font-size: 13px;
+}
+
+.heading img{
+    width: 25px;
+}
+
+.library{
+    min-height: 70vh;
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    font-size: 8px;
+    color: gray;
+    gap: 13px;
+    position: absolute;
+    bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.footer a{
+    color: gray;
+}
+
+.right{
+    margin: 16px 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34 34 34);
+}
+
+.header > *{
+    padding: 20px;
+}
+
+.spotify-playlists{
+    padding: 16px;
+}
+
+.card-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 30px;
+    /* max-height: 100vh;
+    overflow-y: scroll; */
+}
+
+.spotify-playlists .card-container .card{
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+}
+
+.card > *{
+    padding-top: 10px;
+}
+
+.spotify-playlists .card-container .card p{
+    font-size: 13px;
+}
+
+.spotify-playlists .card-container .card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.header .nav img{
+    width: 20px;
+}
+
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1fdf64;
+    width: 35px;
+    height: 35px;
+    padding-top: 0px;
+    padding: 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: 170px;
+    right: 17px;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+
+.card .play img{
+    height: 18px;
+    filter: brightness(0);
+}
+
+.button > *{
+    margin: 0 12px;
+}
+
+.signupbtn{
+    background-color: rgb(34 34 34);
+    color: rgb(111, 108, 108);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.signupbtn:hover{
+    font-size: 16px;
+    color: white;
+}
+
+.loginbtn{
+    background-color: whitesmoke;
+    color: rgb(67, 65, 65);
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.loginbtn:hover{
+    font-size: 16px;
+    padding: 5px 10px;
+    color: black;
+}
